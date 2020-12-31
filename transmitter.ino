@@ -15,6 +15,6 @@ void setup() {
 void loop() {
   for (int i=0; i<n; i++)
     kanal[i] = map(analogRead(analogPin[i]), 0, 1023, 0, 255);
-  radio.write(kanal, 2);
+  radio.write(kanal, n);
   delay(10);
 }

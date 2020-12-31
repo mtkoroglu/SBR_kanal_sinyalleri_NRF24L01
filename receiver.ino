@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   if (radio.available()) {
     radio.read(kanal, n);
-    Serial.write('h'); Serial.write(kanal,2);
-    //Serial.print(kanal[0]); Serial.print(' '); Serial.println(kanal[1]);
+    //Serial.write('h'); Serial.write(kanal,2);
+    Serial.print(kanal[0]); Serial.print(' '); Serial.println(kanal[1]);
   }
 }
