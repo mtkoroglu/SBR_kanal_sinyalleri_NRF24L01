@@ -13,6 +13,6 @@ https://www.direnc.net/nrf24l01-plus-pa-wireless-modul
 Ardından MATLAB kodumuz olan SERİAL_PORT_RECEİVER.m dosyasını doğru port ismini girerek çalıştırın.<br> 
 Doğru portu bulmak için MATLAB'ı açınca serialportlist komutunu kullanabilirsiniz veya Windows'da Aygıt Yöneticisi'ne gidip orada Bağlantı Noktaları (COM ve LPT) üzerine tıklayabilirsiniz. 
 Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip dosyası halinde bilgisayarınıza indirebilirsiniz. </p> </br></br>
-![](Arduino-and-MPU6050-Circuit-Diagram.png) </br></br>
+![](connections.jpg) </br></br>
 # Videoyu aşağıdaki bağlantıdan izleyebilirsiniz 
 [![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/B2S7VlqK_-Q/mq3.jpg?sqp=CIzOuv4F&rs=AOn4CLA5Amqeqg8xPotfP-gUu3MajMFGtg)](https://www.youtube.com/watch?v=B2S7VlqK_-Q)</br></br>
