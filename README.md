@@ -1,6 +1,12 @@
-# Self Balancing Robot (SBR) - Kendi Kendini Dengeleyen Robot Projesinde uzaktan kumanda ile robot kontrolü
-# Verici (Transmitter) işlevi gören NRF24L01 + Arduino (Arduino 1)
-<p> İlk önce 1. Arduino'muz olan transmitter (yani verici) Arduino'muza transmitter.ino kodunu yükleyelim. Unutmayın Arduino'nun A0 ve A1 analog giriş pinlerini joystick'in kanal 1 (yukarı-aşağı yani robotu ileri-geri hareket ettirmek) ve kanal 2 (sağa-sola yani robotu kendi ekseni etrafında döndürme, i.e., spin hareketi) çıkış bacaklarına bağlamalısınız. NRF24L01'i adaptörüne takın ve NRF24L01'ün adaptörünün CE çıkışını Arduino'nun Digital 7 (D7), CSN çıkışını Arduino'nun D8, SCK çıkışını Arduino'nun D13, MO çıkışını D11 ve de MI çıkışını Arduino'nun D12 girişine bağlayın. Ayrıca NRF24L01 adaptörünün üzerindeki Vcc çıkışını Arduino'nun 5V, GND çıkışını Arduino'nun GND pinine bağlayın. NRF24L01 ADAPTÖRÜNÜN Vcc ÇIKIŞINI 3.3V'a bağlamayın. Zaten adaptör 5V'dan 3.3V'a voltajı regüle ediyor ve ayrıca stabil (yani kararlı ve güvenilir) bir voltaj sağlıyor. Eğer NRF24L01 adaptörünüz yoksa bağlantıları yine bahsedilen konfigürasyonda yapabilirsiniz ama Vcc ile GND arasına 10uF'lık elektrolitik kapasitör bağlamanız tavsiye ediliyor. SAKIN sadece NRF24L01 kullanıyorsanız (adaptörünüz yoksa) Vcc'ye 5V bağlamayın, NRF24L01'e zarar verirsiniz.
+# Drone projesi kanal sinyallerinin kablosuz transferi ve PPM sinyalinin üretilmesi
+# Verici (Transmitter) işlevi gören NRF24L01 + PA ve Arduino (Arduino 1)
+<p> İlk önce 1. Arduino'muz olan transmitter (yani verici) Arduino'muza transmitter.ino kodunu yükleyelim. 
+Unutmayın Arduino'nun {A0, A1, A2, A3} analog giriş pinlerini joysticklerin çıkış bacaklarına bağlamalısınız. 
+NRF24L01+PA modülünü adaptörüne takın ve adaptörün CE çıkışını Arduino'nun Digital 7 (D7), CSN çıkışını Arduino'nun D8, SCK çıkışını Arduino'nun D13, MO çıkışını D11 ve de MI çıkışını Arduino'nun D12 girişine bağlayın. 
+Ayrıca NRF24L01 adaptörünün üzerindeki Vcc çıkışını Arduino'nun 5V, GND çıkışını Arduino'nun GND pinine bağlayın. 
+NRF24L01 ADAPTÖRÜNÜN Vcc ÇIKIŞINI 3.3V'a bağlamayın. Zaten adaptör 5V'dan 3.3V'a voltajı regüle ediyor ve ayrıca stabil (yani kararlı ve güvenilir) bir voltaj sağlıyor. 
+Eğer NRF24L01 adaptörünüz yoksa bağlantıları yine bahsedilen konfigürasyonda yapabilirsiniz ama Vcc ile GND arasına 10uF'lık elektrolitik kapasitör bağlamanız tavsiye ediliyor. 
+Sadece NRF24L01 kullanıyorsanız (adaptörünüz yoksa) SAKIN Vcc'ye 5V bağlamayın, NRF24L01'e zarar verirsiniz.
   
 NRF24L01 kablosuz modül<br/>
 https://www.direnc.net/nrf24l01-wireless-modul<br/>
@@ -17,4 +23,4 @@ Ardından MATLAB kodumuz olan serial_port_receiver.m dosyasını doğru port ism
 Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip dosyası halinde bilgisayarınıza indirebilirsiniz. </p> </br></br>
 ![](connections.jpg) </br></br>
 # Videoyu aşağıdaki resime tıklayarak izleyebilirsiniz 
-[![IMAGE ALT TEXT HERE](thumbnail.jpg)](https://youtu.be/FZUj0kXy1hs)</br></br>
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/qr29ZdE75gk/mq2.jpg?sqp=CPiL0v8F&rs=AOn4CLBpe-X4oI4UrLHCcvzVKjUKVWQrVg)](https://www.youtube.com/watch?v=qr29ZdE75gk)</br></br>
