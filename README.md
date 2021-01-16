@@ -1,5 +1,5 @@
-# Kanal sinyallerinin kablosuz transferi ve PPM sinyalinin üretilmesi
-# Verici (Transmitter) işlevi gören NRF24L01 + PA ve Arduino (Arduino 1)
+# Kanal sinyallerinin NRF24L01 kablosuz modülüyle transferi
+# Verici (Transmitter) işlevi gören NRF24L01 ve Arduino (Arduino 1)
 <p> İlk önce 1. Arduino'muz olan transmitter (yani verici) Arduino'muza transmitter.ino kodunu yükleyelim. 
 Unutmayın Arduino'nun {A0, A1} analog giriş pinlerini joysticklerin çıkış bacaklarına bağlamalısınız. 
 NRF24L01+PA modülünü adaptörüne takın ve adaptörün CE çıkışını Arduino'nun Digital 7 (D7), CSN çıkışını Arduino'nun D8, SCK çıkışını Arduino'nun D13, MO çıkışını D11 ve de MI çıkışını Arduino'nun D12 girişine bağlayın. 
