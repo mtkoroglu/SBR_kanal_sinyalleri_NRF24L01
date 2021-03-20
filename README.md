@@ -25,4 +25,3 @@ Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip
 *Şekil 1: Arduino ve NRF24L01 kablosuz modül arasındaki bağlantılar.*
 # Videoyu aşağıdaki resime tıklayarak izleyebilirsiniz 
 [![IMAGE ALT TEXT HERE](figure/thumbnail.jpg)](https://www.youtube.com/watch?v=FZUj0kXy1hs)</br></br>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/FZUj0kXy1hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
