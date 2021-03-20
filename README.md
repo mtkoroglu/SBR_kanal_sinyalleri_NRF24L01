@@ -21,6 +21,6 @@ Burada X 2. Arduino'nun COM numarası, sakın transmitter olan 1. Arduino'nun CO
 # Arduino --> MATLAB Seri Port iletişimi ile kanal sinyallerinin görselleştirilmesi
 Ardından MATLAB kodumuz olan serial_port_receiver.m dosyasını doğru port ismini girerek çalıştırın. Doğru portu belirlemek için MATLAB'ı açınca serialportlist komutunu kullanabilirsiniz veya Windows'da Aygıt Yöneticisi'ne gidip orada Bağlantı Noktaları (COM ve LPT) üzerine tıklayabilirsiniz. 
 Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip dosyası halinde bilgisayarınıza indirebilirsiniz. </p> </br></br>
-![](connections.jpg) </br></br>
+![](figure/connections.jpg) </br></br>
 # Videoyu aşağıdaki resime tıklayarak izleyebilirsiniz 
 [![IMAGE ALT TEXT HERE](figure/thumbnail.jpg)](https://www.youtube.com/watch?v=FZUj0kXy1hs)</br></br>
