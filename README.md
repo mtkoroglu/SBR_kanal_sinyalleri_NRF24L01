@@ -23,4 +23,4 @@ Ardından MATLAB kodumuz olan serial_port_receiver.m dosyasını doğru port ism
 Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip dosyası halinde bilgisayarınıza indirebilirsiniz. </p> </br></br>
 ![](connections.jpg) </br></br>
 # Videoyu aşağıdaki resime tıklayarak izleyebilirsiniz 
-[![IMAGE ALT TEXT HERE](thumbnail.jpg)](https://www.youtube.com/watch?v=FZUj0kXy1hs)</br></br>
+[![IMAGE ALT TEXT HERE](figure/thumbnail.jpg)](https://www.youtube.com/watch?v=FZUj0kXy1hs)</br></br>
