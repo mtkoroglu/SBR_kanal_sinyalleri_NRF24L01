@@ -21,11 +21,8 @@ Burada X 2. Arduino'nun COM numarası, sakın transmitter olan 1. Arduino'nun CO
 # Arduino --> MATLAB Seri Port iletişimi ile kanal sinyallerinin görselleştirilmesi
 Ardından MATLAB kodumuz olan serial_port_receiver.m dosyasını doğru port ismini girerek çalıştırın. Doğru portu belirlemek için MATLAB'ı açınca serialportlist komutunu kullanabilirsiniz veya Windows'da Aygıt Yöneticisi'ne gidip orada Bağlantı Noktaları (COM ve LPT) üzerine tıklayabilirsiniz. 
 Yukarıda Code yazan yeşil bağlantıya tıklarsanız bu sayfadaki kodları zip dosyası halinde bilgisayarınıza indirebilirsiniz. </p> </br></br>
-![](figure/connections.jpg) </br></br>
 <img src="figure/connections.jpg" alt="Arduino NRF24L01 connections" height="240"/>
 *Şekil 1: Arduino ve NRF24L01 kablosuz modül arasındaki bağlantılar.*
 # Videoyu aşağıdaki resime tıklayarak izleyebilirsiniz 
 [![IMAGE ALT TEXT HERE](figure/thumbnail.jpg)](https://www.youtube.com/watch?v=FZUj0kXy1hs)</br></br>
- <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=FZUj0kXy1hs">
-</iframe> 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/FZUj0kXy1hs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
